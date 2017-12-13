@@ -58,7 +58,7 @@ public abstract class BaseAnimation {
         return animatorSet;
     }
 
-    public BaseAnimation setDuration(long duration){
+   public BaseAnimation setDuration(long duration){
 
        animatorSet.setDuration(duration);
         return this;

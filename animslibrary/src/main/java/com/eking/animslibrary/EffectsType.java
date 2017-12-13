@@ -1,8 +1,11 @@
 package com.eking.animslibrary;
 
+import android.view.animation.RotateAnimation;
+
 import com.eking.animslibrary.effects.FadeIn;
 import com.eking.animslibrary.effects.FlipH;
 import com.eking.animslibrary.effects.FlipV;
+import com.eking.animslibrary.effects.RotationIn;
 import com.eking.animslibrary.effects.Shake;
 import com.eking.animslibrary.effects.SideFall;
 import com.eking.animslibrary.effects.SlideBottom;
@@ -24,7 +27,9 @@ public enum EffectsType {
     SlideButtomAnim(SlideBottom.class),
     SlideTopAnim(SlideTop.class),
     SlideLeftAnim(SlideLeft.class),
-    TadaAnim(Tada.class);
+    TadaAnim(Tada.class),
+    RotateAnim(RotationIn.class);
+
 
     private Class< ? extends BaseAnimation > animationClazz;
 
